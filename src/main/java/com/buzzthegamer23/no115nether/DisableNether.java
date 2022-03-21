@@ -3,7 +3,7 @@ package com.buzzthegamer23.no115nether;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerTeleportEvent;
-import us.myles.ViaVersion.api.Via;
+import com.viaversion.viaversion.api.Via;
 
 public class DisableNether
 	implements Listener {
