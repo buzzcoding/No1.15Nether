@@ -5,8 +5,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerTeleportEvent;
 import com.viaversion.viaversion.api.Via;
 
-public class DisableNether
-	implements Listener {
+public class DisableNether implements Listener {
 	@EventHandler
 	public void onTeleport(PlayerTeleportEvent e) {
 		if (e.getCause() == PlayerTeleportEvent.TeleportCause.NETHER_PORTAL && Via.getAPI().getPlayerVersion(e.getPlayer()) < 701) {
