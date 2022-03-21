@@ -1,7 +1,0 @@
-name: No1.15Nether
-author: BuzzTheGamer23
-version: 1.0.1
-api-version: 1.13
-main: com.buzzthegamer23.no115nether.Main
-description: Disables the nether for 1.15 and below
-depend: [ViaVersion]
